@@ -85,14 +85,14 @@ Note: These tables are maintained manually and updated regularly as I solve new 
 
 | ID   | Title                                   | Folder                                                          | Tags                          |
 | ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
-| 26 | Remove Duplicates from Sorted Array | ---------------------------------------------------------------- | Array, Two Pointers |
-| 27 | Remove Element   | ---------------------------------------------------------------- | Array, Two Pointers |
-| 283 | Move Zeroes   | ---------------------------------------------------------------- | Array, Two Pointers |
-| 88 | Merge Sorted Array   | ---------------------------------------------------------------- | Array, Two Pointers, Sorting |
-| 977 | Squares of a Sorted Array  | ---------------------------------------------------------------- | Array, Two Pointers, Sorting |
-| 344 | Reverse String  | ---------------------------------------------------------------- | Two Pointers, String |
-| 345 | Reverse Vowels of a String  | ---------------------------------------------------------------- | Two Pointers, String |
-| 125 | Valid Palindrome | ---------------------------------------------------------------- | Two Pointers, String |
+| 0026 | Remove Duplicates from Sorted Array | ---------------------------------------------------------------- | Array, Two Pointers |
+| 0027 | Remove Element   | ---------------------------------------------------------------- | Array, Two Pointers |
+| 0283 | Move Zeroes   | ---------------------------------------------------------------- | Array, Two Pointers |
+| 0088 | Merge Sorted Array   | ---------------------------------------------------------------- | Array, Two Pointers, Sorting |
+| 0977 | Squares of a Sorted Array  | ---------------------------------------------------------------- | Array, Two Pointers, Sorting |
+| 0344 | Reverse String  | ---------------------------------------------------------------- | Two Pointers, String |
+| 0345 | Reverse Vowels of a String  | ---------------------------------------------------------------- | Two Pointers, String |
+| 0125 | Valid Palindrome | ---------------------------------------------------------------- | Two Pointers, String |
 
 ### Medium
 
