@@ -83,16 +83,16 @@ Note: These tables are maintained manually and updated regularly as I solve new 
 
 ### Easy
 
-| ID   | Title                                   | Folder                                                          | Tags                          |
-| ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
-| 0026 | Remove Duplicates from Sorted Array | ---------------------------------------------------------------- | Array, Two Pointers |
-| 0027 | Remove Element   | ---------------------------------------------------------------- | Array, Two Pointers |
-| 0283 | Move Zeroes   | ---------------------------------------------------------------- | Array, Two Pointers |
-| 0088 | Merge Sorted Array   | ---------------------------------------------------------------- | Array, Two Pointers, Sorting |
-| 0977 | Squares of a Sorted Array  | ---------------------------------------------------------------- | Array, Two Pointers, Sorting |
-| 0344 | Reverse String  | ---------------------------------------------------------------- | Two Pointers, String |
-| 0345 | Reverse Vowels of a String  | ---------------------------------------------------------------- | Two Pointers, String |
-| 0125 | Valid Palindrome | ---------------------------------------------------------------- | Two Pointers, String |
+| ID   | Title  | Folder | Tags | Week | Day |
+| ---- | ----- | ----- | ----- | ----- |----- |
+| 0026 | Remove Duplicates from Sorted Array | ----- | Array, Two Pointers | 01 | 01 |
+| 0027 | Remove Element   | ----- | Array, Two Pointers | 01 | 01 |
+| 0283 | Move Zeroes   | ----- | Array, Two Pointers | 01 | 02 |
+| 0088 | Merge Sorted Array   | ----- | Array, Two Pointers, Sorting | 01 | 02 |
+| 0977 | Squares of a Sorted Array  | ----- | Array, Two Pointers, Sorting | 01 | 03 |
+| 0344 | Reverse String  | ----- | Two Pointers, String | 01 | 03 |
+| 0345 | Reverse Vowels of a String  | ----- | Two Pointers, String | 01 | 04 |
+| 0125 | Valid Palindrome | ----- | Two Pointers, String | 01 | 04 |
 
 ### Medium
 
