@@ -43,9 +43,9 @@ python/<id>-<kebab-case-problem-title>/
 
 For example:
 
-- `python/0001-two-sum/`
-- `python/0121-best-time-to-buy-and-sell-stock/`
-- `python/0345-reverse-vowels-of-a-string/`
+- `python/0026-remove-duplicates-from-sorted-array/`
+- `python/0125-valid-palindrome/`
+- `python/0344-reverse-string/`
 
 Each problem directory contains:
 
@@ -65,9 +65,9 @@ You can explore the solutions in multiple ways:
 
    If you know the LeetCode problem ID, jump directly to the corresponding folder under `python/`, for example:
 
-   - [`python/0001-two-sum/`](./python/0001-two-sum/)
-   - [`python/0121-best-time-to-buy-and-sell-stock/`](./python/0121-best-time-to-buy-and-sell-stock/)
-   - [`python/0345-reverse-vowels-of-a-string/`](./python/0345-reverse-vowels-of-a-string/)
+   - [`python/0026-remove-duplicates-from-sorted-array/`](./python/0026-remove-duplicates-from-sorted-array/)
+   - [`python/0125-valid-palindrome/`](./python/0125-valid-palindrome/)
+   - [`python/0344-reverse-string/`](./python/0344-reverse-string/)
 
 2. **By Difficulty / Topic**
 
@@ -81,26 +81,26 @@ You can explore the solutions in multiple ways:
 
 Note: These tables are maintained manually and updated regularly as I solve new problems.
 
-### Easy
+### • Easy: 08
 
 | ID   | Title  | Folder | Tags | Week | Day |
 | ---- | ----- | ----- | ----- | ----- |----- |
-| 0026 | Remove Duplicates from Sorted Array | ----- | Array, Two Pointers | 01 | 01 |
-| 0027 | Remove Element   | ----- | Array, Two Pointers | 01 | 01 |
-| 0283 | Move Zeroes   | ----- | Array, Two Pointers | 01 | 02 |
-| 0088 | Merge Sorted Array   | ----- | Array, Two Pointers, Sorting | 01 | 02 |
-| 0977 | Squares of a Sorted Array  | ----- | Array, Two Pointers, Sorting | 01 | 03 |
-| 0344 | Reverse String  | ----- | Two Pointers, String | 01 | 03 |
-| 0345 | Reverse Vowels of a String  | ----- | Two Pointers, String | 01 | 04 |
-| 0125 | Valid Palindrome | ----- | Two Pointers, String | 01 | 04 |
+| 0026 | Remove Duplicates from Sorted Array | [`python/0026-remove-duplicates-from-sorted-array/`](./python/0026-remove-duplicates-from-sorted-array/) | Array, Two Pointers | 01 | 01 |
+| 0027 | Remove Element   | [`python/0027-remove-element/`](./python/0027-remove-element/) | Array, Two Pointers | 01 | 01 |
+| 0283 | Move Zeroes   | [`python/0283-move-zeroes/`](./python/0283-move-zeroes/) | Array, Two Pointers | 01 | 02 |
+| 0088 | Merge Sorted Array   | [`python/0088-merge-sorted-array/`](./python/0088-merge-sorted-array/) | Array, Two Pointers, Sorting | 01 | 02 |
+| 0977 | Squares of a Sorted Array  | [`python/0977-squares-of-a-sorted-array/`](./python/0977-squares-of-a-sorted-array/) | Array, Two Pointers, Sorting | 01 | 03 |
+| 0344 | Reverse String  | [`python/0344-reverse-string/`](./python/0344-reverse-string/) | Two Pointers, String | 01 | 03 |
+| 0345 | Reverse Vowels of a String  | [`python/0345-reverse-vowels-of-a-string/`](./python/0345-reverse-vowels-of-a-string/) | Two Pointers, String | 01 | 04 |
+| 0125 | Valid Palindrome | [`python/0125-valid-palindrome/`](./python/0125-valid-palindrome/) | Two Pointers, String | 01 | 04 |
 
-### Medium
+### • Medium: 0
 
 | ID   | Title                                   | Folder                                                          | Tags                          |
 | ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
 | ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
 
-### Hard
+### • Hard: 0
 
 | ID   | Title                                   | Folder                                                          | Tags                          |
 | ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
