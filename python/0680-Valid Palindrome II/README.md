@@ -1,16 +1,5 @@
-Mohammad Hossein، بریم یک README واقعاً اصولی و تمیز برای **LeetCode 680 – Valid Palindrome II** بسازیم.
 
-طبق دستور خودت:
-
-- اگر کد اشتباه داشته باشد، باید **اصلاحش کنم** و **توضیحات را بر اساس نسخه اصلاح‌شده** بدهم.
-- اگر کد درست باشد، **اصلاً تغییرش نمی‌دهم** و توضیحات را روی همان کد می‌نویسم.
-
-در این مورد، کدت **دو ایراد جدی** دارد (هم از نظر syntax/structure و هم از نظر ارجاع متد)، پس بر اساس دستور خودت، **نسخه اصلاح‌شده** را مبنا قرار می‌دهم و توضیح می‌نویسم.
-
----
-
-```markdown
-# LeetCode 680 – Valid Palindrome II
+# 680. Valid Palindrome II
 
 ## 1. Problem Description
 
@@ -72,11 +61,12 @@ For a normal palindrome check:
 
 In this problem, we are allowed to **delete at most one character**. This means:
 
-- When we encounter the **first mismatch** between `s[left]` and `s[right]`,we have two choices:
+- When we encounter the **first mismatch** between `s[left]` and `s[right]`,  
+  we have two choices:
   1. **Skip the left character** (delete `s[left]`), and check if the remaining substring is a palindrome.
   2. **Skip the right character** (delete `s[right]`), and check if the remaining substring is a palindrome.
 
-If **either** of these two options leads to a palindrome, then the answer is `true`.
+If **either** of these two options leads to a palindrome, then the answer is `true`.  
 If neither works, the answer is `false`.
 
 ---
@@ -101,11 +91,11 @@ class Solution(object):
                 right -= 1
             elif s[left] != s[right]:
                 return self.Solution.isPalindrome(s, left + 1, right) or self.Solution.isPalindrome(s, left, right -1)
-      
+        
         return True
 
     def isPalindrome(s: str, left: int, right: int) -> bool:
-      
+        
         while left < right:
             if s[left] != s[right]:
                 return False
@@ -120,20 +110,21 @@ class Solution(object):
 
    - `self.Solution` does **not** exist.
    - You should simply call `self.isPalindrome(...)`.
+
 2. **`isPalindrome` is defined like a standalone function, not as an instance method**
 
    ```python
    def isPalindrome(s: str, left: int, right: int) -> bool:
    ```
-
    In a class, instance methods must have `self` as the first parameter:
 
    ```python
    def isPalindrome(self, s: str, left: int, right: int) -> bool:
    ```
+
 3. Minor point: Using `s = s.lower()` is fine here (the problem doesn’t require case-sensitivity), but LeetCode usually assumes case-sensitive checking unless otherwise stated. Still, logically this doesn’t break the algorithm, just changes behavior slightly.
 
-Because of points 1 and 2, your code **will not run correctly** in LeetCode as-is.
+Because of points 1 and 2, your code **will not run correctly** in LeetCode as-is.  
 According to your instruction, when the code has issues, I must **fix it** and explain based on the **corrected** version.
 
 ---
@@ -229,6 +220,7 @@ At the first mismatch, we try two options:
    ```
 
    This simulates deleting `s[left]`, and checking if the substring `s[left+1 : right+1]` is a palindrome.
+
 2. **Skip the right character**:
 
    ```python
@@ -283,6 +275,7 @@ We expect `True`, because deleting `'b'` or `'c'` makes it a palindrome.
    left = 0    # 'a'
    right = 3   # 'a'
    ```
+
 2. First iteration:
 
    - `s[left] = 'a'`, `s[right] = 'a'` → equal.
@@ -292,6 +285,7 @@ We expect `True`, because deleting `'b'` or `'c'` makes it a palindrome.
      left = 1   # 'b'
      right = 2  # 'c'
      ```
+
 3. Second iteration:
 
    - `s[1] = 'b'`, `s[2] = 'c'` → mismatch.
@@ -301,8 +295,8 @@ We expect `True`, because deleting `'b'` or `'c'` makes it a palindrome.
      self.isPalindrome(s, left + 1, right)  # isPalindrome("abca", 2, 2)  => "c"
      self.isPalindrome(s, left, right - 1)  # isPalindrome("abca", 1, 1)  => "b"
      ```
-   - `isPalindrome("abca", 2, 2)`:
 
+   - `isPalindrome("abca", 2, 2)`:
      - Substring: `"c"` → single character → palindrome → returns `True`.
    - Since the first call already returns `True`, the whole method returns `True`.
 
@@ -341,22 +335,21 @@ So:
 
 ## 8. Edge Cases
 
-1. **Empty string** `""`
-
-   - `left = 0`, `right = -1` → `left < right` is false → returns `True`.
+1. **Empty string** `""`  
+   - `left = 0`, `right = -1` → `left < right` is false → returns `True`.  
    - An empty string is considered a palindrome.
-2. **Single-character string** `"a"`
 
+2. **Single-character string** `"a"`  
    - Similarly, loop doesn’t run → returns `True`.
-3. **Already palindrome** `"racecar"`
 
+3. **Already palindrome** `"racecar"`  
    - No mismatch found → returns `True` directly.
-4. **Needs exactly one deletion** `"abca"`
 
+4. **Needs exactly one deletion** `"abca"`  
    - First mismatch at `'b'` and `'c'`.
    - One of the two options (`skip left` or `skip right`) yields a palindrome.
-5. **Cannot be fixed with one deletion** `"abc"`
 
+5. **Cannot be fixed with one deletion** `"abc"`  
    - Mismatch at `'a'` and `'c'`.
    - Check `"bc"` and `"ab"` → neither is palindrome → return `False`.
 
@@ -375,11 +368,3 @@ So:
 - Structurally:
   - Main logic in `validPalindrome`.
   - Clean, reusable helper `isPalindrome` for substring checks.
-
----
-
-If you’d like, Mohammad Hossein, in ادامه‌ی همین مسیر می‌توانیم:
-
-- یک **بلاگ Medium** برای همین 680 بنویسیم که:
-  - ارتباطش با 125 (Valid Palindrome) و 345 (Reverse Vowels) را نشان بدهد،
-  - و “**at most one deletion**” را به‌عنوان یک الگوی کلی در two-pointers توضیح دهد.
