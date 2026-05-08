@@ -95,11 +95,11 @@ Note: These tables are maintained manually and updated regularly as I solve new 
 | 0125 | Valid Palindrome | [`python/0125-valid-palindrome/`](./python/0125-valid-palindrome/) | Two Pointers, String | 01 | 04 |
 | 0680 | Valid Palindrome II | [`python/0680-valid-palindrome-II/`](./python/0680-valid-palindrome-II/) | Two Pointers, String, Greedy | 01 | 06 |
 
-### • Medium: 0
+### • Medium: 1
 
 | ID   | Title                                   | Folder                                                          | Tags                          |
 | ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
-| ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
+| 0167 | Two Sum II - Input Array Is Sorted   | `python/0167-two-sumII-input-array-is-sorted/` | Array, Two Pointers, Binary Search |
 
 ### • Hard: 0
 
