@@ -93,7 +93,7 @@ Note: These tables are maintained manually and updated regularly as I solve new 
 | 0344 | Reverse String  | [`python/0344-reverse-string/`](./python/0344-reverse-string/) | Two Pointers, String | 01 | 03 |
 | 0345 | Reverse Vowels of a String  | [`python/0345-reverse-vowels-of-a-string/`](./python/0345-reverse-vowels-of-a-string/) | Two Pointers, String | 01 | 04 |
 | 0125 | Valid Palindrome | [`python/0125-valid-palindrome/`](./python/0125-valid-palindrome/) | Two Pointers, String | 01 | 04 |
-| 0680 | Valid Palindrome II | [`python/0680-valid-palindrome-II/`]() | Two Pointers, String, Greedy | 01 | 06 |
+| 0680 | Valid Palindrome II | [`python/0680-valid-palindrome-II/`](./python/0680-valid-palindrome-II/) | Two Pointers, String, Greedy | 01 | 06 |
 
 ### • Medium: 0
 
