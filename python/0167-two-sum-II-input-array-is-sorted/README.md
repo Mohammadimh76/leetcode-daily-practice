@@ -1,7 +1,3 @@
-
----
-
-```markdown
 # LeetCode 167 — Two Sum II (Input Array Is Sorted)
 
 ## Problem Summary
