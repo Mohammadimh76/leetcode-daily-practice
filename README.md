@@ -107,7 +107,7 @@ Note: These tables are maintained manually and updated regularly as I solve new 
 
 | ID   | Title  | Folder | Tags | Week | Day |
 | ---- | ----- | ----- | ----- | ----- |----- |
-| ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- | --------------------------------------- | --------------------------------------- |
+| ---- | ----- | ----- | ----- | ----- |----- |
 
 > As I progress, I will replace the placeholder rows with actual problems and add more tags (e.g., `array`, `two-pointers`, `sliding-window`, `dp`, `graph`).
 
