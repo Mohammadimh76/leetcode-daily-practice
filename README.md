@@ -81,7 +81,7 @@ You can explore the solutions in multiple ways:
 
 Note: These tables are maintained manually and updated regularly as I solve new problems.
 
-### • Easy: 09
+### • Easy: 09 + 1
 
 | ID   | Title  | Folder | Tags | Week | Day |
 | ---- | ----- | ----- | ----- | ----- |----- |
@@ -94,18 +94,20 @@ Note: These tables are maintained manually and updated regularly as I solve new 
 | 0345 | Reverse Vowels of a String  | [`python/0345-reverse-vowels-of-a-string/`](./python/0345-reverse-vowels-of-a-string/) | Two Pointers, String | 01 | 04 |
 | 0125 | Valid Palindrome | [`python/0125-valid-palindrome/`](./python/0125-valid-palindrome/) | Two Pointers, String | 01 | 04 |
 | 0680 | Valid Palindrome II | [`python/0680-valid-palindrome-II/`](./python/0680-valid-palindrome-II/) | Two Pointers, String, Greedy | 01 | 06 |
+| 0643 | Maximum Average Subarray I | `python/0643-maximum-average-subarray-I/` | Array, Sliding Window | 02 | 08 |
 
-### • Medium: 1
+### • Medium: 01 + 1 
 
-| ID   | Title                                   | Folder                                                          | Tags                          |
-| ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
-| 0167 | Two Sum II - Input Array Is Sorted   | [`python/0167-two-sum-II-input-array-is-sorted/`](./python/0167-two-sum-II-input-array-is-sorted/) | Array, Two Pointers, Binary Search |
+| ID   | Title  | Folder | Tags | Week | Day |
+| ---- | ----- | ----- | ----- | ----- |----- |
+| 0167 | Two Sum II - Input Array Is Sorted   | [`python/0167-two-sum-II-input-array-is-sorted/`](./python/0167-two-sum-II-input-array-is-sorted/) | Array, Two Pointers, Binary Search |01 | 07 |
+| 1343 | Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | `python/1343-number-of-sub-arrays-of-size-K-and-average-greater-than-or-equal-to-threshold/` | Array, Sliding Window | 02 | 08 |
 
 ### • Hard: 0
 
-| ID   | Title                                   | Folder                                                          | Tags                          |
-| ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
-| ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
+| ID   | Title  | Folder | Tags | Week | Day |
+| ---- | ----- | ----- | ----- | ----- |----- |
+| ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- | --------------------------------------- | --------------------------------------- |
 
 > As I progress, I will replace the placeholder rows with actual problems and add more tags (e.g., `array`, `two-pointers`, `sliding-window`, `dp`, `graph`).
 
