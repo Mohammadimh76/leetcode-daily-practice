@@ -99,7 +99,7 @@ Note: These tables are maintained manually and updated regularly as I solve new 
 
 | ID   | Title                                   | Folder                                                          | Tags                          |
 | ---- | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
-| 0167 | Two Sum II - Input Array Is Sorted   | `python/0167-two-sumII-input-array-is-sorted/` | Array, Two Pointers, Binary Search |
+| 0167 | Two Sum II - Input Array Is Sorted   | [`python/0167-two-sum-II-input-array-is-sorted/`](./python/0167-two-sum-II-input-array-is-sorted/) | Array, Two Pointers, Binary Search |
 
 ### • Hard: 0
 
