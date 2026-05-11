@@ -96,12 +96,15 @@ Note: These tables are maintained manually and updated regularly as I solve new 
 | 0680 | Valid Palindrome II | [`python/0680-valid-palindrome-II/`](./python/0680-valid-palindrome-II/) | Two Pointers, String, Greedy | 01 | 06 |
 | 0643 | Maximum Average Subarray I | `python/0643-maximum-average-subarray-I/` | Array, Sliding Window | 02 | 08 |
 
-### • Medium: 01 + 1 
+### • Medium: 04 
 
 | ID   | Title  | Folder | Tags | Week | Day |
 | ---- | ----- | ----- | ----- | ----- |----- |
 | 0167 | Two Sum II - Input Array Is Sorted   | [`python/0167-two-sum-II-input-array-is-sorted/`](./python/0167-two-sum-II-input-array-is-sorted/) | Array, Two Pointers, Binary Search |01 | 07 |
 | 1343 | Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | `python/1343-number-of-sub-arrays-of-size-K-and-average-greater-than-or-equal-to-threshold/` | Array, Sliding Window | 02 | 08 |
+| 1456 | Maximum Number of Vowels in a Substring of Given Length | `python/1456-maximum-number-of-vowels-in-a-substring-of-given-length/` | String, Sliding Window | 02 |09 |
+| 1052 | Grumpy Bookstore Owner  | `python/0167-grumpy-bookstore-owner/` | Array, Sliding Window | 02 |09 |
+
 
 ### • Hard: 0
 
