@@ -97,7 +97,7 @@ Note: These tables are maintained manually and updated regularly as I solve new 
 | 0643 | Maximum Average Subarray I | `python/0643-maximum-average-subarray-I/` | Array, Sliding Window | 02 | 08 |
 | 0219 | Contains Duplicate II | `python/0219-contains-duplicate-II/` | Array, Hash Table, Sliding Window | 02 |10 |
 
-### • Medium: 05 
+### • Medium: 07 
 
 | ID   | Title  | Folder | Tags | Week | Day |
 | ---- | ----- | ----- | ----- | ----- |----- |
@@ -106,6 +106,8 @@ Note: These tables are maintained manually and updated regularly as I solve new 
 | 1456 | Maximum Number of Vowels in a Substring of Given Length | `python/1456-maximum-number-of-vowels-in-a-substring-of-given-length/` | String, Sliding Window | 02 |09 |
 | 1052 | Grumpy Bookstore Owner  | `python/1052-grumpy-bookstore-owner/` | Array, Sliding Window | 02 |09 |
 | 0209 | Minimum Size Subarray Sum | `python/0209-minimum-size-subarray-sum/` | Array, Sliding Window, Binary Search, Prefix Sum | 02 | 10 |
+| 0003 | Longest Substring Without Repeating Characters | `python/0003-longest-substring-without-repeating-characters/` | Hash Table, String, Sliding Window | 02 | 11 |
+| 0438 | Find All Anagrams in a String | `python/0438-find-all-anagrams-in-a-string/` | Hash Table, String, Sliding Window | 02 | 11 |
 
 
 ### • Hard: 0
